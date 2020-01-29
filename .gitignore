@@ -1,5 +1,5 @@
 # Prerequisites
-*.d
+1;4205;0c*.d
 
 # Compiled Object files
 *.slo
@@ -34,3 +34,5 @@
 .project
 .cproject
 .settings/
+
+build/

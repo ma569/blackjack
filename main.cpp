@@ -76,11 +76,18 @@ int main() {
 		else if("R" == userInput) {
 			std::cout << "Game ended \n";
 			gameStarted = false;
+
+			if(game) {
+				game -> reset();
+			}
 			welcomeMessage();
 		}
 		else if(gameStarted && "h" == userInput) {
 			//! you can hit only if game has started
-			gameStarted = game->hitGamePlay();
+
+			if(game) {
+				gameStarted = game->hitGamePlay();
+			}
 		}
 		else if(gameStarted &&  "s" == userInput) {
 			game->standGamePlay();
