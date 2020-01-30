@@ -23,7 +23,7 @@ Please ensure you have gtest installed. See internet for details
 
 # TODO
 - Cleanup cmake
-- Write proper unit tests using gmock library (they are effectively integration tests). I have written really basic unit tests to show that this is something one should do to write production level codes.
-- For each class, I should "delete" copy/move constructors and assignment operator
+- Write proper unit tests using gmock library (they are effectively integration tests). They are basic tests. One should extensive tests for production level codes.
+- For each class, one should "delete" copy/move constructors and assignment operator
 - error checking on user input is minimal 
 - implement split and in-game increase in bet
